@@ -1,25 +1,6 @@
 ---
-# front matter tells Jekyll to process Liquid
+layout: default
+title: Home
 ---
-<!doctype html>
-<html>
-  <head>
-    <title>This is happywarmtea page!</title>
-    <a href="https://google.com">google</a>
-  </head>
-  <body>
-    <p> {{"HAPPYWARMTEA!"}}</p>
-    <p>  {{"HAPPYWARMTEA!" | downcase}} </p>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
-
-  <head>
-    <meta charset="utf-8">
-    <title>Web Portfolio of Marco</title>
-  </head>
-  <body>
-    <h1>Web Portfolio of Marco</h1>
-    <p>Write anything you want to tell the world.</p>
-    <img src="images/300px-The_scale_of_the_Universe.jpg" alt="picture of a galaxy">
-  </body>
-</html>
+<h1>{{ "Hello World!" | downcase }}</h1>
+<h2>{{ "more words!" }}</h2>
